@@ -1,0 +1,44 @@
+.d-desktop {
+    visibility: hidden;
+    display: none;
+}
+
+.d-mobile {
+    visibility: visible;
+    display: inherit;
+}
+
+.logo {
+    font-size: 55px;
+}
+
+#no-reading .content, 
+.content-sroll {
+    overflow-x: scroll;
+    gap:10px;
+    width: 100%;
+    -ms-overflow-style: none;
+    scrollbar-width:none;
+    padding-left: 100%;
+}
+
+#no-reading .content::webkit-scrollbar{
+    display:none !important;
+}
+
+#no-reading .content-scroll::webkit-scrollbar{
+    display:none !important;
+} 
+
+
+#no-reading .content img {
+    width: 150px;
+}
+
+.justify-content-center-mobile {
+    justify-content: center;
+}
+
+.text-center-mobile {
+    text-align:center;
+}

@@ -29,6 +29,8 @@ a {
 
 }
 
+
+
 h1 {
     font-size: 56px;
 }
@@ -53,3 +55,7 @@ header {
     color: black;
 }
 
+.d-mobile {
+    visibility: hidden;
+    display: none;
+}
